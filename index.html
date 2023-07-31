@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="display"></div>
+        <div id="btn-section">
+            <div class="row">
+                <button class="btn bolder operators-sc" onclick="btnBackSpace()">CE</button>
+                <button class="btn operators-sc" onclick="fact()">X!</button>
+                <button class="btn operators-sc">%</button>
+                <button class="btn operators-sc" onclick="btnAC()">AC</button>
+            </div>
+
+            <div class="row">
+                <button class="btn operators-sc" onclick="sin()">sin</button>
+                <button class="btn operators-sc" onclick="pi()">&#x3C0</button>
+                <button class="btn" onclick="btnValue(7)">7</button>
+                <button class="btn" onclick="btnValue(8)">8</button>
+                <button class="btn" onclick="btnValue(9)">9</button>
+                <button class="btn operators" onclick="btnValue('÷')">&divide</button>
+            </div>
+
+            <div class="row">
+                <button class="btn operators-sc" onclick="cos()">cos</button>
+                <button class="btn operators-sc" onclick="log()">log</button>
+                <button class="btn" onclick="btnValue(4)">4</button>
+                <button class="btn" onclick="btnValue(5)">5</button>
+                <button class="btn" onclick="btnValue(6)">6</button>
+                <button class="btn operators" onclick="btnValue('x')">x</button>
+            </div>
+
+            <div class="row">
+                <button class="btn operators-sc" onclick="tan()">tan</button>
+                <button class="btn operators-sc" onclick="sqrt()">&#8730</button>
+                <button class="btn" onclick="btnValue(1)">1</button>
+                <button class="btn" onclick="btnValue(2)">2</button>
+                <button class="btn" onclick="btnValue(3)">3</button>
+                <button class="btn operators" onclick="btnValue('-')">-</button>
+            </div>
+
+            <div class="row">
+                <button class="btn operators-sc" onclick="e()">e</button>
+                <button class="btn operators-sc" onclick="pow()">X<sup>2</sup></button>
+                <button class="btn" onclick="btnValue(0)">0</button>
+                <button class="btn" onclick="btnValue('.')">.</button>
+                <button class="btn bolder operators" onclick="btnEqual()">=</button>
+                <button class="btn bolder operators" onclick="btnValue('+')">+</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
